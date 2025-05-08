@@ -167,7 +167,7 @@ namespace Буквы_Цифры
             CenterLabel(); // Центрируем после обновления текста
         }
 
-        // Назначение горячих клавишь для кнопок "<", ">" и "Домой"
+        // Назначение горячих клавиш для кнопок "<", ">" и "Домой"
         protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
         {
             if (keyData == Keys.Left)
